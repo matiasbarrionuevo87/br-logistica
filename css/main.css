@@ -1,0 +1,156 @@
+#barra {
+    background-color: rgb(241, 90, 36);
+} 
+
+
+#servicios{
+    background-color: rgb(241, 90, 36);
+} 
+    .carousel-img {
+        max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */
+        max-height: 100px;
+    }
+
+
+#typewriter{
+    color: rgb(241, 90, 36);
+
+}
+
+footer {
+    background-color: rgb(87, 87, 86);
+    color: #fff;
+    padding: 20px 0;
+   
+}
+
+footer h4 {
+    font-size: 18px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+/* Estilos para dispositivos pequeños (hasta 576px) */
+@media (max-width: 576px) {
+    footer {
+        text-align: center;
+    }
+    footer h4 {
+        margin-top: 20px;
+    }
+    footer ul li {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para dispositivos medianos (hasta 768px) */
+@media (max-width: 768px) {
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer ul li {
+        flex-basis: 25%;
+    }
+}
+
+/* Estilos para los logotipos de redes sociales */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+/* Media queries para dispositivos pequeños y medianos */
+@media (max-width: 576px) {
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-icons a {
+        font-size: 28px;
+    }
+}
+
+.contenedor-formulario{
+    background-color: rgb(241, 90, 36);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.formulario {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Media query para dispositivos pequeños */
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
