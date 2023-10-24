@@ -1,6 +1,7 @@
 #barra {
-    background-color: rgb(241, 90, 36);
+    background-color: rgb(87, 87, 86);
 } 
+
 
 
 #servicios{
@@ -10,6 +11,7 @@
         max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */
         max-height: 100px;
     }
+
 
 
 #typewriter{
@@ -153,4 +155,12 @@ button {
     button {
         padding: 8px 16px;
     }
+}
+
+nav div span a img{
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    padding: 1px;
+
 }
