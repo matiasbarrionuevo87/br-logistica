@@ -158,9 +158,33 @@ button {
 }
 
 nav div span a img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     margin: 1px;
     padding: 1px;
 
+}
+
+
+.logo-container {
+    animation: logoAnimation 2s infinite alternate;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.logo {
+    max-width: 100px;
+    opacity: 0;
+}
+
+@keyframes logoAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
