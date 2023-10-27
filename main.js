@@ -11,3 +11,16 @@ typewriter
   .pauseFor(200)
   .deleteChars(10)
   .start();
+
+
+  window.addEventListener("scroll", function() {
+    const imagenFija = document.getElementById("imagen-fija");
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.body.clientHeight;
+    const scrollY = window.scrollY;
+    const bottomOffset = 20; // Ajusta la distancia desde el borde inferior
+  
+    const translateY = Math.max(0, scrollY + windowHeight - documentHeight + bottomOffset);
+  
+    imagenFija.style.transform = `translateY(${translateY}px)`;
+  });

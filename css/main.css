@@ -188,3 +188,36 @@ nav div span a img{
         opacity: 1;
     }
 }
+
+.nav-item-hover:hover {
+    background-color: rgb(241, 90, 36);
+    color: white; 
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s, color 0.5s;
+    font-size: 1.1em; 
+    cursor: pointer;
+    position: relative;
+
+}
+.nav-item-hover::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px; /* Grosor del subrayado */
+    bottom: 0;
+    left: 0;
+    background-color: white; /* Color del subrayado */
+    transition: width 0.3s ease; /* Transición para el ancho */
+  }
+  
+  .nav-item-hover:hover::before {
+    width: 100%; /* Ancho completo al pasar el mouse */
+  }
+
+  #imagen-fija {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.3s; /* Agrega una transición suave */
+  }
