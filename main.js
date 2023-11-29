@@ -1,3 +1,17 @@
+  // Iniciar el carrusel
+  document.addEventListener("DOMContentLoaded", function () {
+    var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleCaptions'), {
+      interval: 4000, // Cambiar de diapositiva cada 5 segundos (5000 milisegundos)
+      pause: false // No pausar al pasar el mouse por encima
+    });
+  });
+
+
+
+
+
+
+
 let app = document.getElementById('typewriter');
  
 let typewriter = new Typewriter(app, {
@@ -24,3 +38,5 @@ typewriter
   
     imagenFija.style.transform = `translateY(${translateY}px)`;
   });
+
+
